@@ -3,6 +3,7 @@
 
 def key_for_min_value(name_hash)
   min = "bananas"
+  key = nil
   name_hash.map do |name, age|
     if min == "bananas"
       min = age 
